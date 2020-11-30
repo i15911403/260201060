@@ -3,5 +3,6 @@ book_dictionary = {}
 for i in books:
   a = len(i)
   b = len(set(i))
-  book_dictionary[i]=(a,b)
+  c = (a + b) / 2
+  book_dictionary[i]=(a,b,c)
 print(book_dictionary)
