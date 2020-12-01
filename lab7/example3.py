@@ -6,3 +6,11 @@ for i in books:
   c = (a + b) / 2
   book_dictionary[i]=(a,b,c)
 print(book_dictionary)
+  
+  
+  
+  
+
+  
+  
+  
