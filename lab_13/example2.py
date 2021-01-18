@@ -22,4 +22,4 @@ def BinarySearch(list,low,high,item):
 
 my_list = [22, 8, 12, -4, 27, 30, 36, 50, 7, 68, 91, 56, 2, 85, 42,98, 25]
 my_list=SelectionSort(my_list)
-print(BinarySearch(my_list,0,len(my_list),30))
+print(BinarySearch(my_list,0,len(my_list)-1,50))
